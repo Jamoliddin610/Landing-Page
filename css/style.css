@@ -105,6 +105,7 @@ header .container{
     width: 1090px;
     padding: 100px 20px;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .abs-img {
