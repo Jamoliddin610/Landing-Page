@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+
 body{
     font-family: 'Poppins',sans-serif;
     min-height: 100vh;
@@ -214,4 +215,82 @@ hr {
     position: relative;
     bottom: 178px;
     left: 100px;
+}
+.testimonal .container{
+    width: 1130px;
+    padding: 150px 20px 0 20px;
+    position: relative;
+    margin-bottom: 500px;
+
+}
+.icons{
+    margin-bottom: 30px;
+}
+.emoji{
+    position: absolute;
+    right: 390px;
+    top: 180px;
+    
+}
+.testim-title{
+    width: 475px;
+    margin-right: 165px;
+    
+}
+.testim-h3{
+    font-family: Josefin Sans;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #00788A;
+    width: 310PX;
+    margin-bottom: 30px;
+}
+.name{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0025em;
+    color: #083038;
+    margin-bottom: 2px;
+}
+.job{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.0025em;
+    color: #083038;
+    opacity: 0.5;
+    margin-bottom: 2px;
+}
+.abouts{
+    margin-bottom: 40px;
+}
+.testim-paragraph{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #083038;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+.read{
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 16px;
+    color: #00bfc4;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.arrow-button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
 }
